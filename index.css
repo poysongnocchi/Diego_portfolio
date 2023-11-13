@@ -138,23 +138,172 @@ html{
     width: 30px; 
 }
 
-/* .menu{
-    justify-content: start;
-    flex-direction: column;
-    align-items: center;
-    position:fixed;
-    top: 0;
-    right: -300px;
-    background:white;
+
+/* SECTIONS */
+
+#socials-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 1rem;
+    }
+
+
+.button-1{
+    padding: 16px 35px;
+    text-decoration:none;
+    border: black solid;
+    border-radius: 35px;
+    color:black;
+    font-weight:  550;
+    transition: all 300ms ease;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+
+.button-1:hover{
+    background-color: rgb(58, 58, 58);
+    color: white;
+    cursor: pointer;
+    border:white solid;
+}
+
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+#profile{
+    display: flex;
+    justify-content: center;
+    gap:6rem;
+    height: 80vh;
+    
+}
+
+.section-profile-image{
+    display: flex;
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    border: solid 1.5px black;
+    margin: auto 0;
+}
+
+/* SECTION'S TEXT */
+
+
+.section-text {
+    align-self: center;
+    text-align: center;
+}
+
+.section-text p{
+    font-weight: 600;
+}
+
+.section-text-p1{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+    }
+
+    .section-text-p2{
+        font-size: 1.7rem;
+        margin-bottom: 1.2rem;
+    }
+
+
+    /* ICONS */
+
+.icon {
+    cursor:pointer;
+    height: 3rem;
+}
+
+
+/* ABOUT  SECTION */
+
+#about{
+    margin-bottom: 7rem;
+    
+}
+
+.about-header {
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 3rem;
+}
+
+.about-main-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+    /* text-align: center; */
+}
+
+.about-container{
+    width: 33%;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(246, 244, 244)
+}
+
+.about-container h3{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.about-container p{
+    font-size: 1.1rem;
+}
+
+.about-icons img{
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 1.5rem;
+    max-height: 30%;
+    max-width: 30%;
+}
+
+.about-pic img{
+    height: 400px;
     width: 300px;
-    height: 100%;
-    padding-top:50px;
+    border-radius: 50px;
+    border: solid 1px black;
 }
 
-.menu li {
-    width:100%;
+.whoami{
+    text-align: center;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius:35px;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
-.navigation input:checked~ .menu{
-    right: 0;
-} */
+.whoami h3{
+    font-size: 1.5rem;
+}
+
+.whoami p{
+    font-size: 1.1rem;
+}
