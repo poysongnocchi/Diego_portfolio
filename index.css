@@ -262,12 +262,13 @@ section{
     border-radius: 40px;
     padding-left: 40px;
     padding-right: 40px;
-    background-color: rgb(246, 244, 244)
+    
 }
 
 .about-container h3{
     font-size: 1.3rem;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .about-container p{
@@ -275,17 +276,18 @@ section{
 }
 
 .about-icons img{
-    margin-top: 1.5rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    margin-bottom: 1.5rem;
+    display: block;
+    padding-top: 1.2rem;
+    position: relative;
+    margin: auto ;
     max-height: 30%;
     max-width: 30%;
+
 }
 
 .about-pic img{
-    height: 400px;
-    width: 300px;
+    height: 350px;
+    width: 260px;
     border-radius: 50px;
     border: solid 1px black;
 }
@@ -295,7 +297,7 @@ section{
     border: solid 1px rgb(0, 0, 0);
     border-radius:35px;
     margin-top: 2vh;
-    margin-bottom: 3vh;
+    /* margin-bottom: 3vh; */
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -307,3 +309,123 @@ section{
 .whoami p{
     font-size: 1.1rem;
 }
+
+/* EXPERIENCE SECTION */
+
+/* #experience{
+    margin-top: 10px;
+} */
+
+.experience-header{
+    display:block;
+    text-align: center;
+}
+
+.experience-header h3{
+    font-size: 2rem;
+}
+
+.experience-header p {
+    font-size: 1.5rem;
+}
+
+/* PROGRESS BARS*/
+
+.bar-container img{
+    display: block;
+    height: 35px;
+    width: 35px;
+    margin: auto;
+
+}
+
+.progress-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.progress-container {
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding:  0 5px;
+    display: flex;
+    height: 27px;
+    width: 70vw;
+    border: solid black 1px;
+    background-color: #505050;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .progress-html {
+    animation: load 3s normal forwards;
+    border-radius: 100px;
+    background: #df6d6d;
+    height: 21px;
+    width: 0;
+    margin-bottom: 0.555px;
+    border: solid black 1px;
+    text-align: center;
+    font-weight: 500;
+    
+  }
+  .progress-css {
+    animation: load-css 3s normal forwards;
+    border-radius: 100px;
+    background: #4ac5e7;
+    height: 21px;
+    width: 0;
+    margin-bottom: 0.6px;
+    border: solid black 1px;
+    text-align: center;
+    font-weight: 500;
+  }
+  .progress-js {
+    animation: load-js 3s normal forwards;
+    border-radius: 100px;
+    background: #ffff01;
+    height: 21px;
+    width: 0;
+    margin-bottom: 0.6px;
+    border: solid black 1px;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  @keyframes load {
+    0% { width: 0; }
+    100% { width: 80%; } 
+}
+  
+    @keyframes load-css {
+    0% { width: 0; }
+    100% { width: 65%; } 
+}
+  
+    @keyframes load-js {
+    0% { width: 0; }
+    100% { width: 50%; }  }
+
+    /* CORE SKILLS */
+
+    .skills-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 10rem;
+    margin-top: 3.5rem;
+    }
+
+    .skill-icon img{
+        height:40px;
+        width: 40px;
+        display: block;
+        margin: auto;
+        margin-bottom: 2.5rem;
+    }
+
+    .skills{
+        text-align: center;
+    }
