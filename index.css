@@ -44,6 +44,7 @@ html{
     z-index: 1;
     align-items: center;
     transition: 0.3s;
+    
 }
 
 .menu li {
@@ -428,4 +429,244 @@ section{
 
     .skills{
         text-align: center;
+    }
+
+
+    /* CONTACT SECTION */
+
+    #contact{
+margin-top: 30rem;
+    }
+
+    .contact-main-container{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contact-header{
+        display: block;
+        text-align: center;
+    }
+
+    .contact-header h3{
+        font-size: 2rem;
+    }
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info p{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+    .contact-header p{
+        font-size: 1.5rem;
+    }
+
+    .contact__icons img{
+        height: 40px;
+        width: 40px;
+    }
+
+    .contact-icons-container{
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        margin-top: 2rem;
+    }
+
+    .message-container{
+        margin-top: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+}
+
+   .contact-name input{
+    width: 400px;
+    height: 30px;
+    border: solid black;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.contact-name input:hover{
+    transition:.3s;
+transform: scale(1.05);
+box-shadow: 5px 5px 2.5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);;
+}
+
+
+.contact-email input{
+    width: 400px;
+    height: 30px;
+    border: solid black ;
+    border-radius: 15px;
+}
+
+.contact-email input:hover{
+    transition: 0.3s;
+    transform: scale(1.05);
+    box-shadow: 5px 5px 2.5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);;
+    }
+    
+
+.contact-message input{
+    width: 400px;
+    height: 150px;
+    border: solid black;
+    border-radius: 15px;   
+}
+
+.contact-message input:hover{
+    transition: 0.3s;
+    transform: scale(1.05);
+    box-shadow: 5px 5px 2.5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);;
+    }
+    
+
+.holder-name{
+    font-weight: bold;
+    padding-left: 0.5rem;
+}
+
+.holder-email{
+    font-weight: bold;
+    padding-left: 0.5rem;
+}
+
+.holder-message{
+    font-weight: bold;
+    padding-left: 0.5rem;
+}
+
+::placeholder{ color:black;
+}
+
+.send-container{
+    padding: 14px 32px;
+    text-decoration:none;
+    border: black solid;
+    border-radius: 35px;
+    color:black;
+    font-weight:  550;
+    transition: all 300ms ease;
+    width: 50px;
+}
+
+.send-container:hover{
+    background-color: rgb(58, 58, 58);
+    color: white;
+    cursor: pointer;
+    border:white solid;
+}
+
+
+/* BLOG */
+#blog{
+    margin-top: 4rem;
+}
+
+.header-blog{
+    text-align: center;
+    gap:4rem;
+    margin-bottom: 4rem;
+}
+
+.header-blog h3{
+    font-size: 2rem;
+}
+
+.header-blog p{
+    font-size: 1.5em;
+}
+
+.parent-post{
+ display: flex;
+ justify-content:space-around;
+ gap: 4rem;
+ flex-wrap: wrap;
+}
+
+.post1{
+    height:400px ;
+    width: 300px;
+    border: solid black;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.post1 img{
+height: 180px;
+width: 270px;    
+}
+
+.view-button{
+    display: block;
+    margin: auto;
+    padding: 10px 25px;
+    text-decoration:none;
+    border: black solid;
+    border-radius: 35px;
+    color:black;
+    font-weight:  500;
+    transition: all 300ms ease;
+    width: 80px;
+}
+
+.view-button:hover{
+    background-color: rgb(58, 58, 58);
+    color: white;
+    cursor: pointer;
+    border:white solid;
+}
+
+.post1:hover{
+    transition: 0.3s;
+    transform: scale(1.05);
+    box-shadow: 5px 5px 2.5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);;
+}
+
+
+/* SINGLE POST PAGE */
+
+#blog1{
+margin-right: 70px;
+margin-left: 10px;
+}
+
+.blogpost{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    border: solid black;
+    border-radius: 40px;
+    padding: 40px;
+    width: 90%;
+    }
+
+    .blogpost img{
+        height: 60%;
+        width: 60%;
+        border: solid black;
+        border-radius: 40px;
+    }
+
+    .blogpost h3{
+        font-size: 2rem;
     }
