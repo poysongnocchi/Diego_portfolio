@@ -2,6 +2,8 @@
     .hamburger,
     .toggle-menu{
     display: block;
+    position: fixed;
+    
 }
 .menu{
     justify-content: start;
@@ -25,6 +27,107 @@
 
 .navigation input:checked~ .menu{
     right: 0;
+}
+
+ #profile{
+    gap: 2rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+html{
+    width: 100%;
+    height:100%;
+
+}
+
+.section-profile-image{
+    margin: auto;
+    
+}
+
+header{
+    margin-bottom: 3.5rem;
+}
+
+}
+
+
+@media screen and (max-width:600px){
+
+ html{ width: 565px;
+    height: 100%; 
+    margin: 0;
+}
+
+.section-profile-image img{
+    height: 300px;
+    width: 300px;
+    /* border: solid black; */
+}
+
+header{
+    margin-bottom: 8rem;
+}
+
+.hamburger,
+.toggle-menu{
+    right: 30px;
+    
+}
+
+#profile{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+#about{
+    display: block;
+   margin: auto;
+   margin-top: 14rem;
+} 
+
+#experience{
+    display: block;
+   margin: auto;
+   margin-top: 14rem;
+}
+
+.experience-main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.progress-bar{
+gap: 2rem;
+margin-bottom: 3rem;
+}
+
+.progress-container{
+    width: 420px
+}
+
+.skills-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#blog{
+    display: block;
+    margin: auto;
+    margin-top: 14rem;
+}
+
+#contact{
+display: block;
+    margin: auto;
+    margin-top: 14rem;
+    margin-bottom:5rem;
 }
 
 }

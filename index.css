@@ -3,9 +3,12 @@
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 
+
+
 body{
     font-family: 'Roboto', sans-serif;
     background: white;
+
 }
 
 .header{
@@ -28,6 +31,9 @@ html{
     cursor:pointer;
     text-decoration: none;
 }
+
+
+
 
 /* NAVIGATION */
 
@@ -109,11 +115,11 @@ html{
 
 .toggle-menu{
     position: absolute;
-    width: 40px;
+    width: 45px;
     height: 100%;
     z-index: 3;
     cursor: pointer;
-    right: 55px;
+    right: 25px;
     opacity: 0;
     
 }
@@ -140,7 +146,7 @@ html{
 }
 
 
-/* SECTIONS */
+/* SECTIONS PROFILE*/
 
 #socials-container{
     margin-top: 10px;
@@ -187,12 +193,15 @@ section{
     display: flex;
     justify-content: center;
     gap:6rem;
-    height: 80vh;
+    height: 85vh;
     
 }
 
 .section-profile-image{
-    display: flex;
+display: flex;
+}
+
+.section-profile-image img{
     height: 450px;
     width: 450px;
     border-radius: 50%;
@@ -200,7 +209,7 @@ section{
     margin: auto 0;
 }
 
-/* SECTION'S TEXT */
+/* SECTION'S PROFILE TEXT */
 
 
 .section-text {
@@ -240,40 +249,56 @@ section{
 /* ABOUT  SECTION */
 
 #about{
-    margin-bottom: 7rem;
+    block-size:fit-content ;
     
 }
 
 .about-header {
     text-align: center;
-    font-size: 1.75rem;
+    gap: 4rem;
     margin-bottom: 3rem;
+}
+
+.about-header h3 {
+    font-size: 2rem;
+}
+
+.about-header p{
+    font-size: 2.5rem;
+    font-weight: 600;
 }
 
 .about-main-container{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     gap: 3rem;
-    /* text-align: center; */
+
 }
 
 .about-container{
-    width: 33%;
-    border: solid 1px rgb(0, 0, 0);
+    block-size: fit-content;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 350px;
+    border: solid  rgb(0, 0, 0);
     border-radius: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
+    text-align: center;
+    padding: 2%;
+    
     
 }
 
 .about-container h3{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
     text-align: center;
 }
 
 .about-container p{
-    font-size: 1.1rem;
+    
+    font-size: 1.3rem;
 }
 
 .about-icons img{
@@ -281,56 +306,61 @@ section{
     padding-top: 1.2rem;
     position: relative;
     margin: auto ;
-    max-height: 30%;
-    max-width: 30%;
+    height: 40px;
+    width: 40px;
 
 }
+
 
 .about-pic img{
     height: 350px;
-    width: 260px;
-    border-radius: 50px;
-    border: solid 1px black;
+    width: 270px;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
 }
 
-.whoami{
-    text-align: center;
-    border: solid 1px rgb(0, 0, 0);
-    border-radius:35px;
-    margin-top: 2vh;
-    /* margin-bottom: 3vh; */
-    padding-left: 40px;
-    padding-right: 40px;
-}
 
-.whoami h3{
-    font-size: 1.5rem;
-}
-
-.whoami p{
-    font-size: 1.1rem;
-}
 
 /* EXPERIENCE SECTION */
 
-/* #experience{
-    margin-top: 10px;
-} */
+#experience{
+    display: block;
+   height: 96vh;
+   block-size: fit-content;
+   margin-top: 8rem;
+    margin-bottom: 8rem;
+  
+} 
+
+.experience-main-container{
+    display: block;
+block-size: fit-content;
+}
+
 
 .experience-header{
-    display:block;
     text-align: center;
+    gap: 4rem;
+    margin-bottom: 3rem;
 }
+
 
 .experience-header h3{
     font-size: 2rem;
 }
 
 .experience-header p {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: 600;
 }
 
 /* PROGRESS BARS*/
+
+.bar-container{
+    display: block;
+    margin: auto;
+}
 
 .bar-container img{
     display: block;
@@ -362,7 +392,8 @@ section{
   }
   
   .progress-html {
-    animation: load 3s normal forwards;
+    animation: load 6s normal forwards;
+    animation-iteration-count: infinite;
     border-radius: 100px;
     background: #df6d6d;
     height: 21px;
@@ -374,7 +405,8 @@ section{
     
   }
   .progress-css {
-    animation: load-css 3s normal forwards;
+    animation: load-css 6s normal forwards;
+    animation-iteration-count: infinite;
     border-radius: 100px;
     background: #4ac5e7;
     height: 21px;
@@ -385,7 +417,8 @@ section{
     font-weight: 500;
   }
   .progress-js {
-    animation: load-js 3s normal forwards;
+    animation: load-js 6s normal forwards;
+    animation-iteration-count: infinite;
     border-radius: 100px;
     background: #ffff01;
     height: 21px;
@@ -413,10 +446,10 @@ section{
     /* CORE SKILLS */
 
     .skills-container{
-    display: flex;
-    justify-content: space-around;
-    gap: 10rem;
-    margin-top: 3.5rem;
+        display: flex;
+        justify-content: space-around;
+       gap: 10rem;
+        margin-top: 3.5rem;
     }
 
     .skill-icon img{
@@ -431,16 +464,26 @@ section{
         text-align: center;
     }
 
+  .skills h3{ font-size: 1.5rem;
+}
+
+  .skills p{ font-size: 1.2rem;
+
+  }
+
 
     /* CONTACT SECTION */
 
     #contact{
-margin-top: 30rem;
-    }
+    
+     height: 85vh;
+    margin-top: 8rem;
+    margin-bottom: 8rem; }
 
     .contact-main-container{
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
     }
 
     .contact-header{
@@ -450,6 +493,11 @@ margin-top: 30rem;
 
     .contact-header h3{
         font-size: 2rem;
+    }
+
+    .contact-header p{
+        font-size: 2.5rem;
+        font-weight: 600;
     }
 
 .contact-info{
@@ -462,9 +510,6 @@ margin-top: 30rem;
     margin-top: 2rem;
 }
 
-    .contact-header p{
-        font-size: 1.5rem;
-    }
 
     .contact__icons img{
         height: 40px;
@@ -573,7 +618,10 @@ box-shadow: 5px 5px 2.5px 0px rgba(0,0,0,0.75);
 
 /* BLOG */
 #blog{
-    margin-top: 4rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    height: 90vh;
+    block-size: fit-content;
 }
 
 .header-blog{
@@ -653,20 +701,23 @@ margin-left: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 3rem;
+    box-sizing: border-box;
+    margin: 3%;
     border: solid black;
     border-radius: 40px;
-    padding: 40px;
-    width: 90%;
+    padding: 30px;
+    width: 100%;
     }
 
     .blogpost img{
-        height: 60%;
-        width: 60%;
+        height: 70%;
+        width: 90%;
         border: solid black;
         border-radius: 40px;
+        margin:4%;
+        box-sizing: border-box;
     }
 
     .blogpost h3{
         font-size: 2rem;
-    }
+    } 
