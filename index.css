@@ -689,6 +689,14 @@ width: 270px;
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);;
 }
 
+.send-button{
+    color: black;
+    text-decoration: none;
+}
+
+.send-button:hover{
+    color:white;
+} 
 
 /* SINGLE POST PAGE */
 
@@ -721,3 +729,28 @@ margin-left: 10px;
     .blogpost h3{
         font-size: 2rem;
     } 
+
+
+    /* SENT MESSAGE SECTION */
+
+    .brent-rambo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    } 
+    
+    .brent-rambo img{
+        height: 45%;
+        width: 45%
+    }
+
+    .brent-rambo h1{
+        font-size: 4rem;
+    }
+
+    .brent-rambo h3{
+        font-size: 2rem;
+    }
