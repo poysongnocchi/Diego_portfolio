@@ -7,11 +7,11 @@ Welcome to my project portfolio, This readme file provides a brief overview of t
 
 ### Useful links
 
-* Link to my [GitHub Repository] (https://github.com/poysongnocchi).
+* Link to my [GitHub Repository](https://github.com/poysongnocchi).
 
-* Link to my deployed [website on Netify] (https://main--incomparable-valkyrie-9a87e8.netlify.app/)
+* Link to my deployed [website on Netify](https://main--incomparable-valkyrie-9a87e8.netlify.app/)
 
-* Link to my [Video presentation] (######)
+* Link to my [Video presentation](https://www.canva.com/design/DAF0sHFRTeA/lsaZqdOVm1pLkdVbkG5gQw/view?utm_content=DAF0sHFRTeA&utm_campaign=designshare&utm_medium=link&utm_source=recording_view)
 
 
 ## Functionality and Features
